@@ -1,0 +1,37 @@
+theme = 'hugo-theme-relearn'
+# git submodule add --depth 1 https://github.com/McShelby/hugo-theme-relearn.git themes/hugo-theme-relearn
+# https://mcshelby.github.io/hugo-theme-relearn/introduction/upgrade/index.html
+baseURL = 'https://avarex/'
+languageCode = 'en-us'
+title = 'AvareX'
+defaultContentLanguage = 'en'
+
+[author]
+  email = 'ys@example.com'
+  name = 'Yogesh Sharma'
+
+[params]
+  linkTitle = 'AvareX'
+  disableLandingPageButton = true
+  themeVariant = ['auto', 'relearn-light', 'relearn-dark']
+
+[languages]
+  [languages.en]
+    languageCode = 'en'
+    languageName = 'English'
+    title = 'AvareX documentation'
+    weight = 1
+
+#  [languages.pir]
+#    languageCode = 'art-x-pir'
+#    languageDirection = 'rtl'
+#    languageName = 'Pirrratish'
+#    title = 'Arrr, my Website'
+#    weight = 2
+
+[outputs]
+  home = ['html', 'print']
+  page = ['html', 'print']
+  section = ['html', 'print']
+
+
