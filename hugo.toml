@@ -6,8 +6,12 @@ languageCode = 'en-us'
 title = 'AvareX'
 defaultContentLanguage = 'en'
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [author]
-  email = 'ys@example.com'
+  email = 'yogjyo@gmail.com'
   name = 'Yogesh Sharma'
 
 [params]
